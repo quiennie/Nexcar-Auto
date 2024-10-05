@@ -1,0 +1,53 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+ </head>
+ <body class="bg-blue-900 font-roboto">
+  <div class="container mx-auto p-8">
+   <div class="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-8 lg:space-y-0">
+    <!-- Left Side (Text Section) -->
+    <div class="lg:w-1/2 text-white text-left space-y-6 lg:pr-8">
+     <h1 class="text-4xl font-bold">
+      <span class="text-red-500">NEX</span><span class="text-blue-300">CAR</span>
+     </h1>
+     <h2 class="text-5xl font-bold">
+      YOUR <span class="text-red-500">NEXT CAR</span> IS HERE!
+     </h2>
+     <p class="text-lg leading-relaxed">
+      At Nexcar, we are passionate about helping you find the car you actually want without the hassles and pressures you might experience in a typical sales environment. What makes us different than other car dealerships in Houston? Keep reading and we'll explain the key factors that make us one of the highest-rated used car dealers in Texas.
+     </p>
+     <p class="text-xl font-bold text-red-500">
+      View Car Buying Checklist Now!
+     </p>
+     <p class="text-lg">
+      Visit our website: <a class="text-blue-300 underline" href="https://www.nexcarauto.com/" target="_blank">nexcarauto.com</a>
+     </p>
+    </div>
+
+    <!-- Right Side (Form Section) -->
+    <div class="lg:w-1/2 bg-white p-8 rounded-lg shadow-lg">
+     <form>
+      <div class="mb-4">
+       <input class="w-full p-4 border border-gray-300 rounded-lg" placeholder="First Name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <input class="w-full p-4 border border-gray-300 rounded-lg" placeholder="Last Name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <input class="w-full p-4 border border-gray-300 rounded-lg" placeholder="Email" type="email"/>
+      </div>
+      <div>
+       <a href="https://rayc.my.canva.site/free-car-buying-checklist-pdf-8-14-24-pdf" target="_blank">
+        <button class="w-full bg-red-500 text-white p-4 rounded-lg font-bold hover:bg-red-600 transition duration-200" type="button">
+         View Car Buying Checklist
+        </button>
+       </a>
+      </div>
+     </form>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
